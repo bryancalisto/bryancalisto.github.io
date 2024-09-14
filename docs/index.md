@@ -92,11 +92,24 @@ The most common words for the non-summarized texts are dominated by the pronoun 
 
 <center>
 
-| Model                           | Rouge    |
-|---------------------------------|----------|
-| GRU encoder, GRU decoder, GloVe | 0.337545 |
-| GRU encoder, GRU decoder        | 0.166411 |
-| Transformer, GloVe              | 0.054819 |
+<table>
+    <tr>
+        <td>Model</td>
+        <td>Rouge</td>
+    </tr>
+    <tr>
+        <td>GRU encoder, GRU decoder, GloVe</td>
+        <td>0.337545</td>
+    </tr>
+    <tr>
+        <td>GRU encoder, GRU decoder</td>
+        <td>0.166411</td>
+    </tr>
+    <tr>
+        <td>Transformer, GloVe</td>
+        <td>0.054819</td>
+    </tr>
+</table>
 
 </center>
 
